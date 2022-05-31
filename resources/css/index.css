@@ -1,0 +1,295 @@
+/* General */
+html {
+    background-color: white;
+    top: 0;
+    text-align: center;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Header */
+
+header {
+    
+    font-size: 1rem;
+    z-index: 1;
+    margin: 0;
+   
+    
+}
+
+.h_container {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    /* width: 99.5%; */
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 3px solid rgb(117, 117, 117);
+    border-radius: 0.5em;
+    background-color: white;
+    justify-content: flex-end;
+    
+    
+}
+
+.navbar {
+    background-color: white;
+    /* border: 3px solid rgb(117, 117, 117);
+    border-radius: 0.5em; */
+    
+}
+
+header li {
+    list-style: none;
+    padding-left: 25px;
+    padding-right: 10px;
+    text-decoration: none;
+    
+}
+
+header ul {
+    display: flex; 
+    padding-left: 0;
+    text-transform: none;
+    
+}
+
+li:hover {
+    cursor: pointer;
+    color:#B78428; 
+}
+
+header h3 {
+    color: #B78428;
+    flex: 1;
+    text-align: left;
+    padding-left: 1rem;
+    
+}
+
+
+ /* Title */
+
+ .title {
+
+    background-image: url('../images/Hero.jpg');
+    background-size: cover;
+    background-position: middle;
+    border: 3px solid rgb(117, 117, 117);
+    border-radius: 0.5em;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+  }
+
+  .main_title {
+      background-color: white;
+      border: 3px solid rgb(117, 117, 117);
+      border-radius: 0.5em;
+      padding: 2rem;
+      font-size: 1.5rem;
+      min-width: 30rem;
+      box-shadow: 0 0 2em rgba(0, 0, 0, 0.332);
+      
+  }
+
+  body .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 0.5em;
+    
+  }
+
+  h1 {
+      margin-bottom: 0.5rem;
+  }
+
+  .main_title h2 {
+      margin-top: 1rem;
+  }
+
+  #typed {
+      color: #B78428;
+  }
+
+  @media only screen and (max-width: 680px) {
+    .main_title {
+        font-size: 1rem;
+        padding: 1.5rem;
+        min-width: 25rem;
+        }
+}
+
+  /* About Me */
+
+.a_container {
+    display: flex;
+    justify-content: center;
+    
+}
+  .about-me {
+      margin-top: 5rem;
+      padding: 2rem;
+      border: 1px solid;
+      border-radius: 0.5em;
+      font-size: 1rem;
+      background-color: #24344D;
+      color: white;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+
+  }
+
+  .about-me img {
+      width: 15rem;
+      height: 15rem;
+      border-radius: 35%;
+      border: 2px solid white;
+
+  }
+
+  .img-container {
+      display: inline-flex;
+      justify-content: left;
+      align-items: center;
+      padding: 2rem;
+
+  }
+
+  @media only screen and (max-width: 680px) {
+    .about-me {
+        flex-direction: column;
+        align-items: center;
+        max-width: 65%;
+        }
+}
+
+  
+
+ 
+
+  /* projects */
+
+  .projects_section {
+      background-color: #8CA0B1;
+      margin-top: 5rem;
+  }
+
+  .projects_title {
+      margin-top: 5em;
+      padding: 2rem;
+  }
+
+  .projects {
+      display: flex;
+      justify-content: space-around;
+      gap: 2rem;
+      margin-top: 2em;
+      padding-bottom: 2em;
+  }
+
+  .p_container {
+    background-color:#C0C0C0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 15rem;
+    border-radius: 0.5em;
+  }
+
+  @media only screen and (max-width: 680px) {
+      .projects {
+          flex-direction: column;
+          align-items: center;
+          /* height: 200px; */
+          }
+  }
+
+  img {
+      width: 10rem;
+      height: 10rem;
+      
+  }
+
+  /* Final */
+
+  i {
+      font-size: 2.5rem;
+      padding: 0.5rem;
+      transition: 0.5s;
+  }
+
+  .icons {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 1rem;
+  }
+
+  i:hover {
+      font-size: 3rem;
+      
+  }
+
+  .skills {
+      width: 40%;
+  }
+  
+  .final {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  form {
+      display: flex;
+      flex-direction: column;
+      min-width: 20rem;
+      
+  }
+
+  textarea, input {
+
+        resize: none;
+      border: none;
+      outline: none;
+      background-color: grey;
+      padding: 0.25rem;
+      border-radius: 0.5rem;
+      min-height: 2rem;
+      color: white;
+      margin-bottom: 1rem;
+  }
+
+  textarea {
+      min-height: 5rem;
+  }
+
+  input[type="submit"] {
+      background-color: #B78428;
+      width: 10rem;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #b78528bc;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 680px) {
+    .final {
+        flex-direction: column;
+        align-items: center;
+        }
+}

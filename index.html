@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+  <title>Jamie Bell | Personal Website</title>
+  <link rel="stylesheet" type="text/css" href="./resources/css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> 
+</head>
+
+<div class="title">
+
+    <header>
+        
+        <div class="h_container">
+            <h3>Portfolio</h3>
+            <div class="navbar">
+                    <ul>
+                        <li><a href='#about'>About</a></li>
+                        <li><a href='#projects'>Projects</a></li>
+                        <li><a href='#contact'>Contact</a></li>
+                    </ul>
+            </div>
+        </div>
+    </header>
+
+    <!--Main Content-->
+    <body>
+
+    <div class="container">
+        <div class="main_title">
+            <h1>Hi, I'm Jamie</h1> 
+            <h2><span id='typed'></span></h2>
+        </div>
+    </div>
+</div>
+<!--About Section-->
+<section id="about">
+    <div class="a_container">
+        <div class="about-me">
+            <div class="img-container"><img src="./resources/images/Stockhead.jpg" alt="Headshot"></div>
+            <div class="about-me-text">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod harum vitae facilis nihil nobis 
+                laudantium earum. Deserunt illo, pariatur, ut qui quod temporibus odit earum ab aspernatur facere 
+                nesciunt iure obcaecati iste aliquid sint, nostrum eaque fuga sed repellat quos quis incidunt! Eaque
+                commodi aliquam quos eveniet dolor consequatur, ab ea officia, reprehenderit eos illo aut debitis
+                exercitationem quod cum cupiditate. Minus odit doloremque similique sed. Doloribus facere nam 
+                autem rerum. Voluptates dignissimos laudantium ipsa facere quis quo similique! Dicta quos ipsum 
+                eum fugiat dolorem modi necessitatibus dolorum atque, error autem fuga, odio a. Consectetur animi 
+                at hic voluptates.
+                </p>
+            
+        </div>
+    </div>
+</section>
+
+
+<!--Projects Section-->
+<section id="projects">
+    <div class="projects_section">
+        <div class="projects_title">
+            <h2>Projects</h2>
+            <p>Insert previous projects here, add some things I've completed from Codecademy. Maybe link to Github?</p>
+        </div>
+
+        <div class="projects">
+            <div class="p_container">
+                <h3>Project 1</h3>
+                <img src="./resources/images/Hero.jpg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nisi consectetur quidem sed nulla labore, iure doloremque nihil neque cum?</p>
+            </div>
+            <div class="p_container">
+                <h3>Project 2</h3>
+                <img src="./resources/images/Placeholder.png">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nisi consectetur quidem sed nulla labore, iure doloremque nihil neque cum?</p>
+            </div>
+            <div class="p_container">
+                <h3>Project 3</h3>
+                <img src="./resources/images/Placeholder.png">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nisi consectetur quidem sed nulla labore, iure doloremque nihil neque cum?</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="final">
+        <div class="skills">
+            <h2>Skills</h2>
+            <div class="icons">
+                <i class="devicon-css3-plain"></i>
+                <i class="devicon-html5-plain"></i>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-git-plain"></i>
+                <i class="devicon-github-original"></i>
+                <i class="devicon-python-plain"></i>
+            </div>
+        </div>
+        <div class="contact">
+            
+            <form action="" method="get">
+                <h2>Get in touch</h2>
+                <label for="fname"></label><br>
+                <input type="text" id="fname" name="fname" placeholder="Full Name"><br><br>
+                <label for="lname"></label><br>
+                <input type="text" id="lname" name="lname" placeholder="Email"><br><br>
+                <label for="message"></label><br><br>
+                <textarea type="textarea" id="message" name="message" placeholder="Your message"></textarea><br><br>
+                <br><br>
+                <input type="submit" value="Send"><br><br>
+            </form> 
+        </div>
+    </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed('#typed', {
+        strings: ['aspiring web developer',
+                    'aspiring full stack developer',
+                    'aspiring software engineer',
+                    'aspiring code monkey',
+                    'aspiring web developer'],
+        typeSpeed: 150,
+        backSpeed: 75,
+        loop: false
+        
+
+    }) ;
+
+</script>
+
+</body>
+
+
+</html>
