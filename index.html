@@ -7,7 +7,12 @@
     <title>Jamie Bell | Personal Website</title>
     <link rel="stylesheet" type="text/css" href="./resources/css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/8edc3536cd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <div class="title">
@@ -67,27 +72,41 @@
         </div>
         <div class="projects">
             <div class="project-row">
-                <div class="p_container">
+                <div class="p_container" id="mysterious">
+                    <img src="./resources/images/organism.jpg">
+                    <a href="https://github.com/Jaables/MysteriousOrganismProject">
                     <h3>Mysterious Organism</h3>
-                    <!-- <img src="./resources/images/Hero.jpg"> -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nisi consectetur quidem sed nulla labore, iure doloremque nihil neque cum?</p>
+                    
+                        <div class="image-overlay">
+                            <p class="image-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nisi consectetur quidem sed nulla labore, iure doloremque nihil neque cum?</p>
+                        </div>
+                    </a>
+                    
                 </div>
-                <div class="p_container">
-                    <h3>XTreme Gym</h3>
-                    <!-- <img src="./resources/images/Placeholder.png"> -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nisi consectetur quidem sed nulla labore, iure doloremque nihil neque cum?</p>
+                <div class="p_container" id="gym">
+                    <img src="./resources/images/rgb2hex.png">
+                    <a href="https://github.com/Jaables/RGB-to-HEX-Converter">
+                        <h3>RGBtoHEX Converter</h3>
+                        <div class="image-overlay">
+                            <p class="image-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nisi consectetur quidem sed nulla labore, iure doloremque nihil neque cum?</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="project-row">
-                <div class="p_container">
-                    <h3>RGBtoHEX Converter</h3>
-                    <!-- <img src="./resources/images/Placeholder.png"> -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nisi consectetur quidem sed nulla labore, iure doloremque nihil neque cum?</p>
+                <div class="p_container" id="rgb">
+                    <h3>Future Project</h3>
+                    <img src="./resources/images/Placeholder.png">
+                    <div class="image-overlay">
+                        <p class="image-description">This space is reserved for a project that I will complete in the future!</p>
+                    </div>
                 </div>
                 <div class="p_container">
-                    <h3>Test4</h3>
-                    <!-- <img src="./resources/images/Placeholder.png"> -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nisi consectetur quidem sed nulla labore, iure doloremque nihil neque cum?</p>
+                    <h3>Future Project</h3>
+                    <img src="./resources/images/Placeholder.png">
+                    <div class="image-overlay">
+                        <p class="image-description">This space is reserved for a project that I will complete in the future!</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -119,9 +138,19 @@
                 <textarea type="textarea" id="message" name="message" placeholder="Your message"></textarea>
                 <input type="submit" value="Send">
             </form> 
+            <a href="https://www.linkedin.com/in/jamie-bell-4ab056151/">
+                <i class="fa">&#xf08c;</i>
+            </a>
+            <a href="https://github.com/Jaables">
+                <i class="fa-brands fa-github"></i>
+            </a>
         </div>
     </div>
 </section>
+
+<footer>
+    <p>Made with <i class="fa-solid fa-heart fa-beat"></i> in Scotland</p>
+</footer>
 
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
