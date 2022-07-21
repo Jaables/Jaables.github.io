@@ -35,31 +35,63 @@
     <body>
 
     <div class="container">
-        <div class="main_title">
-            <h1>Hi, I'm Jamie</h1> 
-            <h2><span id='typed'></span></h2>
+        <div class="title_flex">        
+            <div class="main_title">
+                <h2>Hi, my name is</h2> 
+                <h1>JAMIE BELL</h1>
+                <span id='typed'></span>
+            </div>
+            <div class="info_container">
+                <div class="text_wrap">
+                    <pre>1  class <strong>Human</strong> {</pre>
+                    <pre>2   constructor() {</pre>
+                    <pre>3    this.name: '<strong>Jamie Bell</strong>';</pre>
+                    <pre>4    this.goal: '<strong>Software Engineer</strong>';</pre>
+                    <pre>5    this.interests: '<strong>Technology</strong>';</pre>
+                    <pre>6   }</pre>
+                    <pre>7  }</pre>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 <!--About Section-->
 <section id="about">
     <div class="a_container">
-        <div class="about-me">
-            <div class="img-container"><img src="./resources/images/Stockhead.jpg" alt="Headshot"></div>
-            <div class="about-me-text">
-                <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod harum vitae facilis nihil nobis 
-                laudantium earum. Deserunt illo, pariatur, ut qui quod temporibus odit earum ab aspernatur facere 
-                nesciunt iure obcaecati iste aliquid sint, nostrum eaque fuga sed repellat quos quis incidunt! Eaque
-                commodi aliquam quos eveniet dolor consequatur, ab ea officia, reprehenderit eos illo aut debitis
-                exercitationem quod cum cupiditate. Minus odit doloremque similique sed. Doloribus facere nam 
-                autem rerum. Voluptates dignissimos laudantium ipsa facere quis quo similique! Dicta quos ipsum 
-                eum fugiat dolorem modi necessitatibus dolorum atque, error autem fuga, odio a. Consectetur animi 
-                at hic voluptates.
-                </p>
-            
+        <div class="a_title">
+         <h2>About Me</h2>
         </div>
-    </div>
+        <div class="wrap">
+            <div class="about-me">
+                <div class="about_img">
+                    <img src="./resources/images/Stockhead.jpg" alt="Headshot">
+                </div>
+                    <div class="about-me-text">
+                        
+                    <p>I am currently working as a mechanical engineer, but I am working in my free
+                        time to learn how to code, with a strong desire of becoming a software engineer in the future. 
+                        I have had an interest in technology from a very young age, and recently I have been
+                        re-evaluating what I want to do for the rest of my life. I have decided to follow
+                        my passion and make the switch to the Tech industry and I am currently looking
+                        for my first opportunity to make this switch. I love learning new things and I am desperate
+                        to learn as much as I can about all of the different technologies that are used in building applications.
+                        So far I have completed various courses on Python, HTML, CSS and JavaScript. Their are only so
+                        many hours in the day which limits how much I can learn, so if you have an opportunity where you
+                        can provide training and guidance to unlock my potential, then please do get in touch. What you
+                        will get in return is a very motivated and dedicated individual, coupled with my strong problem
+                        solving skills from my time as a mechanical engineer, I am a great addition to any team</p>
+                        <br>
+                        <p>
+                        When I am not learning how to write code, I also have the hardest but most rewarding job in the world
+                        and that is being a father. At the time of writing this, my daughter is 5 months old, and she is certainly a
+                        handful. When I finally get a minute to myself I also love going to the gym and playing video games.
+
+                        </p>
+                    
+                </div>
+            
+            </div>
+        </div>
 </section>
 
 
@@ -68,7 +100,7 @@
     <div class="projects_section">
         <div class="projects_title">
             <h2>Projects</h2>
-            <p>Below is a flavour of some of the past projects that I've completed. Click on each image to view the repository, and take a look at my Github profile to look at all of my other projects!</p>
+            <p>Below is a flavour of some of the past projects that I've completed. Click on each image to view the repository, and take a look at my <a href="https://github.com/Jaables">Github</a> profile to look at all of my other projects!</p>
         </div>
         <div class="projects">
             <div class="project-row">
@@ -128,14 +160,14 @@
         </div>
         <div class="contact">
             
-            <form action="" method="get">
+            <form action="https://formsubmit.co/b3b07db54d6dd18fd41f30a989bef85e" method="POST">
                 <h2>Get in touch</h2>
-                <label for="fname"></label>
-                <input type="text" id="fname" name="fname" placeholder="Full Name">
-                <label for="lname"></label>
-                <input type="text" id="lname" name="lname" placeholder="Email">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
+                <label for="email"></label>
+                <input type="text" id="email" name="email" placeholder="Email" required>
                 <label for="message"></label>
-                <textarea type="textarea" id="message" name="message" placeholder="Your message"></textarea>
+                <textarea type="textarea" id="message" name="message" placeholder="I would love to hire you!" required></textarea>
                 <input type="submit" value="Send">
             </form> 
             <a href="https://www.linkedin.com/in/jamie-bell-4ab056151/">
@@ -156,11 +188,7 @@
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
     var typed = new Typed('#typed', {
-        strings: ['aspiring web developer',
-                    'aspiring full stack developer',
-                    'aspiring software engineer',
-                    'aspiring code monkey',
-                    'aspiring web developer'],
+        strings: ['aspiring software engineer'],
         typeSpeed: 150,
         backSpeed: 75,
         loop: false
